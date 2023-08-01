@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer{
+
+        .container{
+            @apply px-[30px] mx-auto
+        }
+
+        .element-center{
+             @apply flex justify-center items-center
+        
+    }
+
+        .btn{
+            @apply bg-[#40B0D0] hover:bg-[#69d5f3] transition-all duration-200
+        }
+}
+
+body{
+    
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Urbanist', sans-serif;
+    background-color: #181F2A;
+}
